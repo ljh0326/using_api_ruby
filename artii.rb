@@ -1,12 +1,15 @@
 require 'artii'
 
 #배열에 다 넣겠다는거 << e 이거 배열에 넣어라는 거 
-fonts = []
+fonts = Array.new
+#fonts = []
+
 DATA.each do |e|
  e.chomp! #\n삭제
  fonts << e
 end
 
+#배열에 있는 폰트중 샘플 뽑아서
 fonts.sample(10).each do |font|
  a = Artii::Base.new(font: font)
  result = a.asciify("Hack")
