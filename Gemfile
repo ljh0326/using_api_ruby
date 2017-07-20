@@ -12,3 +12,6 @@ gem 'geocoder'
 
 # know_weather
 gem 'forecast_io'
+
+# 주식
+gem 'stock_quote'
