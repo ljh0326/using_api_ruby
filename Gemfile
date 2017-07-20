@@ -15,3 +15,6 @@ gem 'forecast_io'
 
 # 주식
 gem 'stock_quote'
+
+# 환율
+gem 'eu_central_bank'
